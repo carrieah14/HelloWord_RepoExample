@@ -8,6 +8,7 @@ namespace HelloWord_RepoExample
         {
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Hey Carrie!!");
         }
     }
 }
