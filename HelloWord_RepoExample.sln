@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord_RepoExample", "HelloWord_RepoExample\HelloWord_RepoExample.csproj", "{0C917DE7-7D68-4ADC-8B74-CE838DA5CF01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWord_RepoExample", "HelloWord_RepoExample\HelloWord_RepoExample.csproj", "{0C917DE7-7D68-4ADC-8B74-CE838DA5CF01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp_Project2", "ConsoleApp_Project2\ConsoleApp_Project2.csproj", "{ED8B480C-0CE0-4115-BA5B-993FD704FBB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0C917DE7-7D68-4ADC-8B74-CE838DA5CF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C917DE7-7D68-4ADC-8B74-CE838DA5CF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C917DE7-7D68-4ADC-8B74-CE838DA5CF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8B480C-0CE0-4115-BA5B-993FD704FBB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8B480C-0CE0-4115-BA5B-993FD704FBB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8B480C-0CE0-4115-BA5B-993FD704FBB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8B480C-0CE0-4115-BA5B-993FD704FBB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
