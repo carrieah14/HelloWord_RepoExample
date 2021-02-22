@@ -11,6 +11,19 @@ namespace ConsoleApp_Project2
         {
             await Chapter15();
 
+
+            #region ParallelFor EXAMPLES
+            ParallelProcessing_Examples.NormalForLoop();
+            ParallelProcessing_Examples.ParallelForExample();
+            ParallelProcessing_Examples.ParallelForForEarly();
+            #endregion
+
+            #region TASK EXAMPLES
+            Task_Examples.TasksUsingThreadPool();
+            Task_Examples.SynchronousTasks();
+            Task_Examples.SeperateThread();
+            #endregion
+
         }
 
         static async Task Chapter15() 
