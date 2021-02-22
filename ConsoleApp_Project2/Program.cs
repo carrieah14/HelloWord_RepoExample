@@ -7,15 +7,19 @@ namespace ConsoleApp_Project2
 {
     class Program
     {
-        static async Task Main()
+        static void Main()
         {
+            Chapter15();
+
+        }
+
+        static async Task Chapter15() 
+        { 
             Console.WriteLine("Hello World!");
             Stopwatch timer = new Stopwatch();
             
             timer.Start();
             Console.WriteLine("Timer Start");
-
-
 
             Task task1 = Method1();
             Task task2 = Method2();
@@ -27,10 +31,9 @@ namespace ConsoleApp_Project2
             TimeSpan ts = timer.Elapsed;
             
             string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", ts.Hours, ts.Minutes, ts.Seconds, ts.Milliseconds / 10);
-            Console.WriteLine("RunTime " + elapsedTime);
+            Console.WriteLine("RunTime: " + elapsedTime);
 
         }
-
 
         static async Task Method1()
         {
@@ -45,7 +48,6 @@ namespace ConsoleApp_Project2
         {
             await Task.Delay(10000);
         }
-
 
     }
 }
