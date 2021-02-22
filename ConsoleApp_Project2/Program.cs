@@ -7,9 +7,9 @@ namespace ConsoleApp_Project2
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
-            Chapter15();
+            await Chapter15();
 
         }
 
